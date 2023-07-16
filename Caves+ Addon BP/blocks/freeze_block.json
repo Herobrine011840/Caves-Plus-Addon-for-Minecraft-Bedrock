@@ -1,0 +1,37 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "cavesplus:freeze_block"
+		},
+		"components": {
+			"minecraft:destroy_time": 0.75,
+			"minecraft:explosion_resistance": 60,
+			"minecraft:map_color": "#1e242a",
+			"minecraft:block_light_absorption": 15,
+			"minecraft:creative_category": {
+				"category": "items",
+				"group": "items"
+			},
+			"minecraft:ticking": {
+				"looping": true,
+				"on_tick": {
+					"event": "freeze"
+				},
+				"range": [
+					2.8,
+					2.8
+				]
+			}
+		},
+		"events": {
+			"freeze": {
+				"run_command": {
+					"command": [
+						"effect @e [r=1] slowness 3 25"
+					]
+				}
+			}
+		}
+	}
+}

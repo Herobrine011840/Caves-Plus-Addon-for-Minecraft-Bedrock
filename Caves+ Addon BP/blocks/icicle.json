@@ -1,0 +1,52 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "cavesplus:icicle"
+		},
+		"components": {
+			"minecraft:geometry": "geometry.icicle",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "cavesplus_icicle",
+					"render_method": "opaque",
+					"face_dimming": true,
+					"ambient_occlusion": false
+				}
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-3,
+					0,
+					-3
+				],
+				"size": [
+					6,
+					16,
+					6
+				]
+			},
+			"minecraft:entity_collision": {
+				"origin": [
+					-3,
+					0,
+					-3
+				],
+				"size": [
+					6,
+					16,
+					6
+				]
+			},
+			"minecraft:creative_category": {
+				"category": "nature",
+				"group": "nature"
+			},
+			"minecraft:block_light_absorption": 0,
+			"minecraft:destroy_time": 0.15,
+			"minecraft:explosion_resistance": 4,
+			"minecraft:loot": "loot_tables/empty.json",
+			"minecraft:map_color": "#85adf8"
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "cavesplus:permafrost_block"
+		},
+		"components": {
+			"minecraft:destroy_time": 1.4,
+			"minecraft:explosion_resistance": 70,
+			"minecraft:map_color": "#2b9696",
+			"minecraft:block_light_absorption": 15,
+			"minecraft:creative_category": {
+				"category": "construction",
+				"group": "construction"
+			}
+		}
+	}
+}

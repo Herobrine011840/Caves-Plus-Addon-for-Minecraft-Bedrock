@@ -1,0 +1,29 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "cavesplus:frosted_stone_permafrost_ore_feature"
+		},
+		"count": 3,
+		"replace_rules": [
+			{
+				"places_block": "cavesplus:frosted_stone_permafrost_ore",
+				"may_replace": [
+					"cavesplus:frosted_stone"
+				]
+			},
+			{
+				"places_block": "cavesplus:permafrost_ore",
+				"may_replace": [
+					"stone"
+				]
+			},
+			{
+				"places_block": "cavesplus:deepslate_permafrost_ore",
+				"may_replace": [
+					"deepslate"
+				]
+			}
+		]
+	}
+}

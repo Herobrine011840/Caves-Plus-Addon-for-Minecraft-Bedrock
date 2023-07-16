@@ -1,0 +1,11 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:snap_to_surface_feature": {
+		"description": {
+			"identifier": "cavesplus:icicle_up_snap"
+		},
+		"feature_to_snap": "cavesplus:icicle_up",
+		"vertical_search_range": 12,
+		"surface": "ceiling"
+	}
+}

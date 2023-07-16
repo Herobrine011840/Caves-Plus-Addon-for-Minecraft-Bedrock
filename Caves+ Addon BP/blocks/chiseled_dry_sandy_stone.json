@@ -1,0 +1,18 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "cavesplus:chiseled_dry_sandy_stone"
+		},
+		"components": {
+			"minecraft:destroy_time": 0.5,
+			"minecraft:explosion_resistance": 30,
+			"minecraft:map_color": "#bf6721",
+			"minecraft:block_light_absorption": 15,
+			"minecraft:creative_category": {
+				"category": "construction",
+				"group": "itemGroup.name.stoneBrick"
+			}
+		}
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"format_version": "1.18.20",
+	"minecraft:structure_template_feature": {
+		"description": {
+			"identifier": "cavesplus:lost_ruin2"
+		},
+		"structure_name": "lost_ruin:small_ruin",
+		"adjustment_radius": 16,
+		"facing_direction": "random",
+		"constraints": {
+			"grounded": {},
+			"unburied": {}
+		}
+	}
+}

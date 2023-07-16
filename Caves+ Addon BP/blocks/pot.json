@@ -1,0 +1,52 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "cavesplus:pot"
+		},
+		"components": {
+			"minecraft:geometry": "geometry.pot",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "cavesplus_pot",
+					"render_method": "opaque",
+					"ambient_occlusion": false,
+					"face_dimming": true
+				}
+			},
+			"minecraft:block_light_absorption": 0,
+			"minecraft:creative_category": {
+				"category": "items",
+				"group": "items"
+			},
+			"minecraft:destroy_time": 0.25,
+			"minecraft:explosion_resistance": 5,
+			"minecraft:map_color": "#FFFFFF",
+			"minecraft:pick_collision": {
+				"origin": [
+					-5,
+					0,
+					-5
+				],
+				"size": [
+					10,
+					12,
+					10
+				]
+			},
+			"minecraft:entity_collision": {
+				"origin": [
+					-5,
+					0,
+					-5
+				],
+				"size": [
+					10,
+					12,
+					10
+				]
+			},
+			"minecraft:loot": "loot_tables/pot.json"
+		}
+	}
+}

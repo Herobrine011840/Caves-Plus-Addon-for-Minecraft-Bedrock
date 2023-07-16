@@ -1,0 +1,30 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "cavesplus:frosted_stone_feature"
+		},
+		"count": 87,
+		"replace_rules": [
+			{
+				"places_block": {
+					"name": "cavesplus:frosted_stone"
+				},
+				"may_replace": [
+					"stone",
+					"deepslate",
+					"tuff"
+				]
+			},
+			{
+				"places_block": {
+					"name": "cavesplus:frosted_stone_emerald_ore"
+				},
+				"may_replace": [
+					"emerald_ore",
+					"deepslate_emerald_ore"
+				]
+			}
+		]
+	}
+}

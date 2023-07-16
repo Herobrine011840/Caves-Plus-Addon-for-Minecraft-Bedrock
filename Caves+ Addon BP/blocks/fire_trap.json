@@ -1,0 +1,31 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "cavesplus:fire_trap"
+		},
+		"components": {
+			"minecraft:destroy_time": 0.75,
+			"minecraft:explosion_resistance": 60,
+			"minecraft:map_color": "#bf6721",
+			"minecraft:block_light_absorption": 15,
+			"minecraft:creative_category": {
+				"category": "items",
+				"group": "items"
+			},
+			"minecraft:on_step_on": {
+				"event": "flame"
+			}
+		},
+		"events": {
+			"flame": {
+				"run_command": {
+					"command": [
+						"fill ~ ~1 ~ ~ ~1 ~ fire 0 replace air",
+						"playsound mob.ghast.fireball @a ~ ~ ~"
+					]
+				}
+			}
+		}
+	}
+}

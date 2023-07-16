@@ -1,0 +1,67 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "cavesplus:dry_sandy_stone_feature"
+		},
+		"count": 103,
+		"replace_rules": [
+			{
+				"places_block": "cavesplus:dry_sandy_stone",
+				"may_replace": [
+					"stone",
+					"deepslate"
+				]
+			},
+			{
+				"places_block": "cavesplus:dry_sandy_stone_gold_ore",
+				"may_replace": [
+					"gold_ore",
+					"deepslate_gold_ore"
+				]
+			},
+			{
+				"places_block": "cavesplus:dry_sandy_stone_coal_ore",
+				"may_replace": [
+					"coal_ore",
+					"deepslate_coal_ore"
+				]
+			},
+			{
+				"places_block": "cavesplus:dry_sandy_stone_iron_ore",
+				"may_replace": [
+					"iron_ore",
+					"deepslate_iron_ore"
+				]
+			},
+			{
+				"places_block": "cavesplus:dry_sandy_stone_copper_ore",
+				"may_replace": [
+					"copper_ore",
+					"deepslate_copper_ore"
+				]
+			},
+			{
+				"places_block": "cavesplus:dry_sandy_stone_lapis_ore",
+				"may_replace": [
+					"lapis_ore",
+					"deepslate_lapis_ore"
+				]
+			},
+			{
+				"places_block": "cavesplus:dry_sandy_stone_redstone_ore",
+				"may_replace": [
+					"redstone_ore",
+					"deepslate_redstone_ore"
+				]
+			},
+			{
+				"places_block": "cavesplus:dry_sandy_stone_diamond_ore",
+				"may_replace": [
+					"diamond_ore",
+					"deepslate_diamond_ore"
+				]
+			}
+		]
+	}
+}

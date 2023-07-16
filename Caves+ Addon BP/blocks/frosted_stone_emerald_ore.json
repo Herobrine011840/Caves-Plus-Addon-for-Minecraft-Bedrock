@@ -1,0 +1,88 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "cavesplus:frosted_stone_emerald_ore"
+		},
+		"components": {
+			"minecraft:destroy_time": 0.7,
+			"minecraft:explosion_resistance": 35,
+			"minecraft:map_color": "#1e242a",
+			"minecraft:block_light_absorption": 15,
+			"minecraft:creative_category": {
+				"category": "nature",
+				"group": "itemGroup.name.ore"
+			},
+			"minecraft:loot": "loot_tables/frosted_stone_emerald.json",
+			"minecraft:on_player_destroyed": {
+				"event": "break"
+			}
+		},
+		"events": {
+			"break": {
+				"randomize": [
+					{
+						"run_command": {
+							"command": [
+								"summon xp_orb ~ ~ ~",
+								"summon xp_orb ~ ~ ~",
+								"summon xp_orb ~ ~ ~"
+							]
+						},
+						"weight": 1
+					},
+					{
+						"run_command": {
+							"command": [
+								"summon xp_orb ~ ~ ~",
+								"summon xp_orb ~ ~ ~",
+								"summon xp_orb ~ ~ ~",
+								"summon xp_orb ~ ~ ~"
+							]
+						},
+						"weight": 1
+					},
+					{
+						"run_command": {
+							"command": [
+								"summon xp_orb ~ ~ ~",
+								"summon xp_orb ~ ~ ~",
+								"summon xp_orb ~ ~ ~",
+								"summon xp_orb ~ ~ ~",
+								"summon xp_orb ~ ~ ~"
+							]
+						},
+						"weight": 1
+					},
+					{
+						"run_command": {
+							"command": [
+								"summon xp_orb ~ ~ ~",
+								"summon xp_orb ~ ~ ~",
+								"summon xp_orb ~ ~ ~",
+								"summon xp_orb ~ ~ ~",
+								"summon xp_orb ~ ~ ~",
+								"summon xp_orb ~ ~ ~"
+							]
+						},
+						"weight": 1
+					},
+					{
+						"run_command": {
+							"command": [
+								"summon xp_orb ~ ~ ~",
+								"summon xp_orb ~ ~ ~",
+								"summon xp_orb ~ ~ ~",
+								"summon xp_orb ~ ~ ~",
+								"summon xp_orb ~ ~ ~",
+								"summon xp_orb ~ ~ ~",
+								"summon xp_orb ~ ~ ~"
+							]
+						},
+						"weight": 1
+					}
+				]
+			}
+		}
+	}
+}

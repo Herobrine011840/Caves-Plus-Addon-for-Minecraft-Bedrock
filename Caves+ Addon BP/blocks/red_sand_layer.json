@@ -1,0 +1,38 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "cavesplus:red_sand_layer"
+		},
+		"components": {
+			"minecraft:geometry": "geometry.red_sand_layer",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "cavesplus_red_sand_layer",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:block_light_absorption": 0,
+			"minecraft:creative_category": {
+				"category": "nature",
+				"group": "nature"
+			},
+			"minecraft:destroy_time": 0.1,
+			"minecraft:explosion_resistance": 0.5,
+			"minecraft:map_color": "#bf6721",
+			"minecraft:entity_collision": false,
+			"minecraft:pick_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					1,
+					16
+				]
+			}
+		}
+	}
+}

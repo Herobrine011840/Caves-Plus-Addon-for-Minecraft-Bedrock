@@ -1,0 +1,48 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "cavesplus:red_sand_layer",
+			"places_feature": "cavesplus:red_sand_layer_scatter"
+		},
+		"conditions": {
+			"placement_pass": "after_underground_pass",
+			"minecraft:biome_filter": [
+				{
+					"any_of": [
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "mesa"
+						}
+					]
+				}
+			]
+		},
+		"distribution": {
+			"iterations": 250,
+			"coordinate_eval_order": "zyx",
+			"x": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			},
+			"y": {
+				"distribution": "uniform",
+				"extent": [
+					-64,
+					200
+				]
+			},
+			"z": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			}
+		}
+	}
+}

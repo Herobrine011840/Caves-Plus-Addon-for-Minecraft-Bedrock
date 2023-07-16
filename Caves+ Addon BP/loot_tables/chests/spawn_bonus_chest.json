@@ -1,0 +1,182 @@
+{
+  "pools": [
+    {
+      "rolls": 5,
+      "entries": [
+        {
+          "type": "item",
+          "name": "written_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_book_contents",
+              "author": "Herobrine011840",
+              "title": "Caves+ Addon",
+              "pages": [
+                "A Guide to the Caves+ Addon 
+ 
+          Blocks: 
+Black Sand: 
+  This variant of sand is found underground near lava pools and is not affected by gravity. It can be smelted into tinted glass or used as decor but is only found in the Arid Caverns. ",
+  "Cave Ice: 
+  Cave Ice is found on the floors of Icy Caves and is slightly slippery. It drops Frosted Stone Cobble if broken without Silk Touch. It can be used to make speedy paths by placing it on a floor. 
+ 
+Dry Sandy Stone: 
+  This rock composes the majority ",
+  "of the Arid Caverns. Ores found in it are replaced by a special version encased in this stone. it is the only block that Fire Crystal Clusters survive on. It can also be fashioned into bricks and slabs. 
+ 
+Fire Crystal Cluster: 
+  This rare gem is found in ",
+  "Arid Caverns at Y=20 and below, on the ceiling. It is used to make Fire Traps and swords. 
+ 
+Fire Trap: 
+  This block is an utility block made out of Fire Crystals. It looks like Chiseled Dry Sandy Stone, but sets fire to anyone that step on it. ",
+  "Freeze Block: 
+  Another Utility block made with permafrost Gems, it freezes any living being that dares to step on it. 
+ 
+Frosted Stone: 
+  A rock that makes up the Icy Caves and can be used to make stone tools and furnaces, along with bricks. Any emeralds ",
+  "that generate inside it are replaced with a special variant. 
+ 
+Icicle: 
+  These Pointy versions of packed ice are found in the Icy Caves and can be used for decor. Downward-facing icicles can convert Frosted Stone Bricks into an icy variant. ",
+  "Permafrost Gems: 
+  These uncommon ores are found in Icy Caves at Y=12 and below. They can be made into ingots and used for swords and Freeze Blocks. 
+ 
+Pot: 
+  A decorative block found only in Lost Ruins. It can also be smashed to yield a little loot. ",
+  "Red Sand Layer: 
+  This thin version of red sand is found on the floor of Arid Caverns. They can be made back into red sand, too. 
+ 
+           Items: 
+ 
+Fire Crystal Sword: 
+  A powerful weapon made from Fire Crystals and Netherite, this ",
+  "sword has 1024 durability and +9 attack damage. 
+ 
+Permafrost Gem Ingot: 
+  This rare ingot can be made from Permafrost Gems, netherite, iron, and Frosted Stone Cobble. it is used in Freeze Blocks and Permafrost Gem Swords. ",
+  "Permafrost Gem Sword: 
+  Another powerful weapon made from a stone sword and Permafrost Gem Ingots, it has 1024 durability, Slowness effect on hit, and +8 attack damage. 
+ 
+        Structures: 
+ 
+Cold Dungeon: 
+  An uncommon structure found in the ",
+  "Icy Caves. It consists of a main room with loot and a Stray spawner, along with a side room with a forge in it. 
+ 
+Lost Ruins: 
+  A destroyed ruin in the Arid Caverns that is made of Dry Sandy Stone Brick, along with carpet, chests, and some pots. ",
+  "          Biomes: 
+ 
+Arid Caverns: 
+  A cave biome found beneath badlands that consists of Dry Sandy Stone, along with red sand layers. Lost Ruins and Fire Crystals are good things to grab here. 
+ 
+Icy Caves: 
+  This cave biome is ",
+  "made mostly of Frosted Stone with a Cave Ice floor. It is found beneath ice spikes and frozen peaks. Icicles spawn on the floor and ceiling, and Permafrost Gems and Cold Dungeons generate here too. "
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:stone_axe",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:wooden_axe",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:stone_pickaxe",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:wooden_pickaxe",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:bread",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:stick",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 12
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:log",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "cavesplus:frosted_stone",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "cavesplus:dry_sandy_stone",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

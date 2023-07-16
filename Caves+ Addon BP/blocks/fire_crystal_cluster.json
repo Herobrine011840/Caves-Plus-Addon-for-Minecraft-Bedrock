@@ -1,0 +1,70 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "cavesplus:fire_crystal_cluster"
+		},
+		"components": {
+			"minecraft:geometry": "geometry.fire_crystal_cluster",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "cavesplus_fire_crystal_cluster",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-4,
+					4,
+					-4
+				],
+				"size": [
+					8,
+					12,
+					7.5
+				]
+			},
+			"minecraft:entity_collision": {
+				"origin": [
+					-4,
+					4,
+					-4
+				],
+				"size": [
+					8,
+					12,
+					7.5
+				]
+			},
+			"minecraft:block_light_absorption": 0,
+			"minecraft:block_light_emission": 0.8,
+			"minecraft:creative_category": {
+				"category": "nature",
+				"group": "nature"
+			},
+			"minecraft:destroy_time": 1,
+			"minecraft:explosion_resistance": 100,
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": [
+							"down"
+						],
+						"block_filter": [
+							"cavesplus:dry_sandy_stone",
+							"cavesplus:dry_sandy_stone_coal_ore",
+							"cavesplus:dry_sandy_stone_copper_ore",
+							"cavesplus:dry_sandy_stone_diamond_ore",
+							"cavesplus:dry_sandy_stone_gold_ore",
+							"cavesplus:dry_sandy_stone_iron_ore",
+							"cavesplus:dry_sandy_stone_lapis_ore",
+							"cavesplus:dry_sandy_stone_redstone_ore"
+						]
+					}
+				]
+			},
+			"minecraft:map_color": "#c9571b",
+			"minecraft:loot": "loot_tables/fire_cluster.json"
+		}
+	}
+}

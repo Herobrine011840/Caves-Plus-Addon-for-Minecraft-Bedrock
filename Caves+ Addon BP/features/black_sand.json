@@ -1,0 +1,25 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:vegetation_patch_feature": {
+		"description": {
+			"identifier": "cavesplus:black_sand"
+		},
+		"replaceable_blocks": [
+			"cavesplus:dry_sandy_stone"
+		],
+		"ground_block": "cavesplus:black_sand",
+		"vegetation_feature": "cavesplus:black_sand",
+		"surface": "floor",
+		"depth": {
+			"range_min": 1,
+			"range_max": 3
+		},
+		"vertical_range": 3,
+		"vegetation_chance": 0,
+		"horizontal_radius": {
+			"range_min": 3,
+			"range_max": 11
+		},
+		"extra_edge_column_chance": 1
+	}
+}

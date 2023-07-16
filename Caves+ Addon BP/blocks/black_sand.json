@@ -1,0 +1,18 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "cavesplus:black_sand"
+		},
+		"components": {
+			"minecraft:block_light_absorption": 14,
+			"minecraft:creative_category": {
+				"category": "nature",
+				"group": "nature"
+			},
+			"minecraft:destroy_time": 0.4,
+			"minecraft:explosion_resistance": 30,
+			"minecraft:map_color": "#000000"
+		}
+	}
+}

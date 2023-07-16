@@ -1,0 +1,106 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"conditions": [
+				{
+					"condition": "match_tool",
+					"count": 1,
+					"item": "minecraft:golden_pickaxe"
+				}
+			],
+			"entries": [
+				{
+					"type": "item",
+					"name": "coal",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"conditions": [
+				{
+					"condition": "match_tool",
+					"count": 1,
+					"item": "minecraft:wooden_pickaxe"
+				}
+			],
+			"entries": [
+				{
+					"type": "item",
+					"name": "coal",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"conditions": [
+				{
+					"condition": "match_tool",
+					"count": 1,
+					"item": "minecraft:stone_pickaxe"
+				}
+			],
+			"entries": [
+				{
+					"type": "item",
+					"name": "coal",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"conditions": [
+				{
+					"condition": "match_tool",
+					"count": 1,
+					"item": "minecraft:iron_pickaxe"
+				}
+			],
+			"entries": [
+				{
+					"type": "item",
+					"name": "coal",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"conditions": [
+				{
+					"condition": "match_tool",
+					"count": 1,
+					"item": "minecraft:diamond_pickaxe"
+				}
+			],
+			"entries": [
+				{
+					"type": "item",
+					"name": "coal",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"conditions": [
+				{
+					"condition": "match_tool",
+					"count": 1,
+					"item": "minecraft:netherite_pickaxe"
+				}
+			],
+			"entries": [
+				{
+					"type": "item",
+					"name": "coal",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

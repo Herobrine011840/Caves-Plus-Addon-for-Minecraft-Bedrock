@@ -1,0 +1,19 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "cavesplus:icy_frosted_stone_bricks"
+		},
+		"components": {
+			"minecraft:destroy_time": 0.5,
+			"minecraft:explosion_resistance": 30,
+			"minecraft:map_color": "#293540",
+			"minecraft:block_light_absorption": 15,
+			"minecraft:creative_category": {
+				"category": "construction",
+				"group": "itemGroup.name.stoneBrick"
+			},
+			"minecraft:friction": 0.63
+		}
+	}
+}

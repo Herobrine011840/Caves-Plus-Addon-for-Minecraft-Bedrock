@@ -1,0 +1,25 @@
+{
+	"format_version": "1.18.20",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "cavesplus:red_sand_layer_scatter"
+		},
+		"iterations": "math.random_integer(8,22)",
+		"x": {
+			"extent": [
+				0,
+				8
+			],
+			"distribution": "gaussian"
+		},
+		"z": {
+			"extent": [
+				0,
+				8
+			],
+			"distribution": "gaussian"
+		},
+		"y": 2,
+		"places_feature": "cavesplus:red_sand_layer"
+	}
+}

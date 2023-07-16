@@ -1,0 +1,64 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "cavesplus:deepslate_permafrost_ore"
+		},
+		"components": {
+			"minecraft:destroy_time": 1,
+			"minecraft:explosion_resistance": 45,
+			"minecraft:map_color": "#515151",
+			"minecraft:block_light_absorption": 15,
+			"minecraft:creative_category": {
+				"category": "nature",
+				"group": "itemGroup.name.ore"
+			},
+			"minecraft:loot": "loot_tables/permafrost_gem.json",
+			"minecraft:on_player_destroyed": {
+				"event": "break"
+			}
+		},
+		"events": {
+			"break": {
+				"randomize": [
+					{
+						"run_command": {
+							"command": [
+								"summon xp_orb ~ ~ ~",
+								"summon xp_orb ~ ~ ~",
+								"summon xp_orb ~ ~ ~",
+								"summon xp_orb ~ ~ ~"
+							]
+						},
+						"weight": 1
+					},
+					{
+						"run_command": {
+							"command": [
+								"summon xp_orb ~ ~ ~",
+								"summon xp_orb ~ ~ ~",
+								"summon xp_orb ~ ~ ~",
+								"summon xp_orb ~ ~ ~",
+								"summon xp_orb ~ ~ ~"
+							]
+						},
+						"weight": 1
+					},
+					{
+						"run_command": {
+							"command": [
+								"summon xp_orb ~ ~ ~",
+								"summon xp_orb ~ ~ ~",
+								"summon xp_orb ~ ~ ~",
+								"summon xp_orb ~ ~ ~",
+								"summon xp_orb ~ ~ ~",
+								"summon xp_orb ~ ~ ~"
+							]
+						},
+						"weight": 1
+					}
+				]
+			}
+		}
+	}
+}

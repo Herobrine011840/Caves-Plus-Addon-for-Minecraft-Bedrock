@@ -1,0 +1,14 @@
+{
+	"format_version": "1.18.20",
+	"minecraft:structure_template_feature": {
+		"description": {
+			"identifier": "cavesplus:cold_dungeon"
+		},
+		"structure_name": "mystructure:cold_dungeon",
+		"adjustment_radius": 16,
+		"facing_direction": "random",
+		"constraints": {
+			"grounded": {}
+		}
+	}
+}

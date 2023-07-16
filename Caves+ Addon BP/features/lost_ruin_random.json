@@ -1,0 +1,22 @@
+{
+	"format_version": "1.18.20",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "cavesplus:lost_ruin_random"
+		},
+		"features": [
+			[
+				"cavesplus:lost_ruin",
+				3
+			],
+			[
+				"cavesplus:lost_ruin2",
+				4
+			],
+			[
+				"cavesplus:lost_ruin3",
+				1
+			]
+		]
+	}
+}
