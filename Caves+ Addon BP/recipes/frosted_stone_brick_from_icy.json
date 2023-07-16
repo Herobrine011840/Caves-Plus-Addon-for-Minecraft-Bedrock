@@ -1,0 +1,13 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "cavesplus:frosted_stone_brick_from_icy"
+		},
+		"tags": [
+			"furnace"
+		],
+		"input": "cavesplus:icy_frosted_stone_bricks",
+		"output": "cavesplus:frosted_stone_bricks"
+	}
+}

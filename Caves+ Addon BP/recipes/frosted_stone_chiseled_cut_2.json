@@ -1,0 +1,23 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "cavesplus:frosted_stone_chiseled_cut_2"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"L",
+			"L"
+		],
+		"key": {
+			"L": {
+				"item": "cavesplus:cobbled_frosted_stone_slab"
+			}
+		},
+		"result": {
+			"item": "cavesplus:chiseled_frosted_stone"
+		}
+	}
+}

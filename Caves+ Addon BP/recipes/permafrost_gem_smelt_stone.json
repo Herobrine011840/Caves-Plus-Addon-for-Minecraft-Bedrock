@@ -1,0 +1,14 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "cavesplus:permafrost_gem_smelt_stone"
+		},
+		"tags": [
+			"furnace",
+			"blast_furnace"
+		],
+		"input": "cavesplus:permafrost_ore",
+		"output": "cavesplus:permafrost_gem"
+	}
+}

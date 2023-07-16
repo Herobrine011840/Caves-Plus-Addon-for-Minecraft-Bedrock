@@ -1,0 +1,14 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "cavesplus:lapis_smelt"
+		},
+		"tags": [
+			"furnace",
+			"blast_furnace"
+		],
+		"input": "cavesplus:dry_sandy_stone_lapis_ore",
+		"output": "lapis_lazuli"
+	}
+}

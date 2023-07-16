@@ -1,0 +1,25 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "cavesplus:red_sand_from_layer"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"F": {
+				"item": "cavesplus:red_sand_layer"
+			}
+		},
+		"pattern": [
+			"FF",
+			"FF"
+		],
+		"result": {
+			"count": 1,
+			"item": "sand",
+			"data": 1
+		}
+	}
+}

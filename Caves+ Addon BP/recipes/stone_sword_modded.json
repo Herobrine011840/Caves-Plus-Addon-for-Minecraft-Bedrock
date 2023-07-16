@@ -1,0 +1,27 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "cavesplus:stone_sword_modded"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" L ",
+			" L ",
+			" S "
+		],
+		"key": {
+			"L": {
+				"item": "cavesplus:cobbled_frosted_stone"
+			},
+			"S": {
+				"item": "minecraft:stick"
+			}
+		},
+		"result": {
+			"item": "stone_sword"
+		}
+	}
+}

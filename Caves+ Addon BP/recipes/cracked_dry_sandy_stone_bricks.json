@@ -1,0 +1,13 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "cavesplus:cracked_dry_sandy_stone_bricks"
+		},
+		"tags": [
+			"furnace"
+		],
+		"input": "cavesplus:dry_sandy_stone_bricks",
+		"output": "cavesplus:cracked_dry_sandy_stone_bricks"
+	}
+}

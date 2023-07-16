@@ -1,0 +1,23 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "cavesplus:frosted_stone_slab_cobble_cut_2"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"LLL"
+		],
+		"key": {
+			"L": {
+				"item": "cavesplus:cobbled_frosted_stone"
+			}
+		},
+		"result": {
+			"item": "cavesplus:cobbled_frosted_stone_slab",
+			"count": 6
+		}
+	}
+}

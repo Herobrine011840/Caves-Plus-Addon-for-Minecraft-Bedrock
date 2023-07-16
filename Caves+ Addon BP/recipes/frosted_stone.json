@@ -1,0 +1,13 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "cavesplus:frosted_stone"
+		},
+		"tags": [
+			"furnace"
+		],
+		"input": "cavesplus:cobbled_frosted_stone",
+		"output": "cavesplus:frosted_stone"
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "cavesplus:gold_smelt"
+		},
+		"tags": [
+			"furnace",
+			"blast_furnace"
+		],
+		"input": "cavesplus:dry_sandy_stone_gold_ore",
+		"output": "gold_ingot"
+	}
+}

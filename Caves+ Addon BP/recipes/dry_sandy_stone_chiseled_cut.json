@@ -1,0 +1,21 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "cavesplus:dry_sandy_stone_chiseled_cut"
+		},
+		"tags": [
+			"stonecutter"
+		],
+		"ingredients": [
+			{
+				"count": 1,
+				"item": "cavesplus:dry_sandy_stone"
+			}
+		],
+		"result": {
+			"count": 1,
+			"item": "cavesplus:chiseled_dry_sandy_stone"
+		}
+	}
+}

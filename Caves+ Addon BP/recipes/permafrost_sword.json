@@ -1,0 +1,28 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "cavesplus:permafrost_sword"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"P": {
+				"item": "cavesplus:permafrost_ingot"
+			},
+			"S": {
+				"item": "stone_sword"
+			}
+		},
+		"pattern": [
+			"P",
+			"P",
+			"S"
+		],
+		"result": {
+			"count": 1,
+			"item": "cavesplus:permafrost_sword"
+		}
+	}
+}

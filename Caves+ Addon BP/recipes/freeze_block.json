@@ -1,0 +1,31 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "cavesplus:freeze_block"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"F": {
+				"item": "cavesplus:chiseled_frosted_stone"
+			},
+			"I": {
+				"item": "blue_ice"
+			},
+			"P": {
+				"item": "cavesplus:permafrost_ingot"
+			}
+		},
+		"pattern": [
+			"FIF",
+			"IPI",
+			"FIF"
+		],
+		"result": {
+			"count": 1,
+			"item": "cavesplus:freeze_block"
+		}
+	}
+}

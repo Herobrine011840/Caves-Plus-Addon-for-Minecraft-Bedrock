@@ -1,0 +1,23 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "cavesplus:dry_sandy_stone_chiseled_cut_2"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"L",
+			"L"
+		],
+		"key": {
+			"L": {
+				"item": "cavesplus:dry_sandy_stone_slab"
+			}
+		},
+		"result": {
+			"item": "cavesplus:chiseled_dry_sandy_stone"
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "cavesplus:permafrost_block"
+		},
+		"ingredients": [
+			{
+				"count": 9,
+				"item": "cavesplus:permafrost_gem"
+			}
+		],
+		"tags": [
+			"crafting_table"
+		],
+		"result": {
+			"count": 1,
+			"item": "cavesplus:permafrost_block"
+		}
+	}
+}

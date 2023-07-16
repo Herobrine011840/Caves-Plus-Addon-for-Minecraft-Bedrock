@@ -1,0 +1,33 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "cavesplus:permafrost_ingot"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"F": {
+				"item": "cavesplus:cobbled_frosted_stone"
+			},
+			"I": {
+				"item": "iron_ingot"
+			},
+			"N": {
+				"item": "netherite_scrap"
+			},
+			"P": {
+				"item": "cavesplus:permafrost_gem"
+			}
+		},
+		"pattern": [
+			"IF",
+			"PN"
+		],
+		"result": {
+			"count": 1,
+			"item": "cavesplus:permafrost_ingot"
+		}
+	}
+}

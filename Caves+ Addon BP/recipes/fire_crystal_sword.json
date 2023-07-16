@@ -1,0 +1,28 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "cavesplus:fire_crystal_sword"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"P": {
+				"item": "cavesplus:fire_crystal"
+			},
+			"S": {
+				"item": "netherite_ingot"
+			}
+		},
+		"pattern": [
+			"P",
+			"P",
+			"S"
+		],
+		"result": {
+			"count": 1,
+			"item": "cavesplus:fire_crystal_sword"
+		}
+	}
+}

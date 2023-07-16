@@ -1,0 +1,24 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "cavesplus:frosted_stone_bricks"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"F": {
+				"item": "cavesplus:frosted_stone"
+			}
+		},
+		"pattern": [
+			"FF",
+			"FF"
+		],
+		"result": {
+			"count": 4,
+			"item": "cavesplus:frosted_stone_bricks"
+		}
+	}
+}

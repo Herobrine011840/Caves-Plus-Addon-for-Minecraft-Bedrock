@@ -1,0 +1,26 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "cavesplus:brewing_stand_from_frost"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" B ",
+			"LLL"
+		],
+		"key": {
+			"L": {
+				"item": "cavesplus:cobbled_frosted_stone"
+			},
+			"B": {
+				"item": "blaze_rod"
+			}
+		},
+		"result": {
+			"item": "item.brewing_stand"
+		}
+	}
+}

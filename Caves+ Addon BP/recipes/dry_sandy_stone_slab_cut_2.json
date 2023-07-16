@@ -1,0 +1,23 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "cavesplus:dry_sandy_stone_slab_cut_2"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"LLL"
+		],
+		"key": {
+			"L": {
+				"item": "cavesplus:dry_sandy_stone"
+			}
+		},
+		"result": {
+			"item": "cavesplus:dry_sandy_stone_slab",
+			"count": 6
+		}
+	}
+}
