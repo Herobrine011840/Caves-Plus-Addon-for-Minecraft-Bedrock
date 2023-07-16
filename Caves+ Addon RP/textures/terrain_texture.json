@@ -1,0 +1,119 @@
+{
+	"num_mip_levels": 4,
+	"padding": 8,
+	"resource_pack_name": "Caves+ Addon",
+	"texture_name": "atlas.terrain",
+	"texture_data": {
+		"cavesplus_frosted_stone": {
+			"textures": "textures/blocks/frosted_stone"
+		},
+		"cavesplus_cobbled_frosted_stone": {
+			"textures": "textures/blocks/cobbled_frosted_stone"
+		},
+		"cavesplus_frosted_stone_bricks": {
+			"textures": "textures/blocks/frosted_stone_bricks"
+		},
+		"cavesplus_frosted_stone_slab": {
+			"textures": "textures/blocks/frosted_stone"
+		},
+		"cavesplus_chiseled_frosted_stone": {
+			"textures": "textures/blocks/chiseled_frosted_stone"
+		},
+		"cavesplus_frosted_stone_brick_slab": {
+			"textures": "textures/blocks/frosted_stone_bricks"
+		},
+		"cavesplus_cobbled_frosted_stone_slab": {
+			"textures": "textures/blocks/cobbled_frosted_stone"
+		},
+		"cavesplus_icicle": {
+			"textures": "textures/blocks/icicle"
+		},
+		"cavesplus_icicle_up": {
+			"textures": "textures/blocks/icicle"
+		},
+		"cavesplus_frosted_stone_emerald_ore": {
+			"textures": "textures/blocks/frosted_stone_emerald_ore"
+		},
+		"cavesplus_cave_ice": {
+			"textures": "textures/blocks/cave_ice"
+		},
+		"cavesplus_cave_ice_side": {
+			"textures": "textures/blocks/cave_ice_side"
+		},
+		"cavesplus_frosted_stone_permafrost_ore": {
+			"textures": "textures/blocks/frosted_stone_permafrost_ore"
+		},
+		"cavesplus_deepslate_permafrost_ore": {
+			"textures": "textures/blocks/deepslate_permafrost_ore"
+		},
+		"cavesplus_permafrost_ore": {
+			"textures": "textures/blocks/permafrost_ore"
+		},
+		"cavesplus_permafrost_block": {
+			"textures": "textures/blocks/permafrost_block"
+		},
+		"cavesplus_icy_frosted_stone_bricks": {
+			"textures": "textures/blocks/icy_frosted_stone_bricks"
+		},
+		"cavesplus_freeze_block": {
+			"textures": "textures/blocks/freeze_block"
+		},
+		"cavesplus_dry_sandy_stone": {
+			"textures": "textures/blocks/dry_sandy_stone"
+		},
+		"cavesplus_dry_sandy_stone_gold_ore": {
+			"textures": "textures/blocks/dry_sandy_stone_gold_ore"
+		},
+		"cavesplus_dry_sandy_stone_coal_ore": {
+			"textures": "textures/blocks/dry_sandy_stone_coal_ore"
+		},
+		"cavesplus_dry_sandy_stone_iron_ore": {
+			"textures": "textures/blocks/dry_sandy_stone_iron_ore"
+		},
+		"cavesplus_dry_sandy_stone_copper_ore": {
+			"textures": "textures/blocks/dry_sandy_stone_copper_ore"
+		},
+		"cavesplus_dry_sandy_stone_lapis_ore": {
+			"textures": "textures/blocks/dry_sandy_stone_lapis_ore"
+		},
+		"cavesplus_dry_sandy_stone_redstone_ore": {
+			"textures": "textures/blocks/dry_sandy_stone_redstone_ore"
+		},
+		"cavesplus_dry_sandy_stone_diamond_ore": {
+			"textures": "textures/blocks/dry_sandy_stone_diamond_ore"
+		},
+		"cavesplus_red_sand_layer": {
+			"textures": "textures/blocks/red_sand_layer"
+		},
+		"cavesplus_fire_crystal_cluster": {
+			"textures": "textures/blocks/fire_crystal_cluster"
+		},
+		"cavesplus_black_sand": {
+			"textures": "textures/blocks/black_sand"
+		},
+		"cavesplus_fire_crystal_block": {
+			"textures": "textures/blocks/fire_crystal_block"
+		},
+		"cavesplus_chiseled_dry_sandy_stone": {
+			"textures": "textures/blocks/chiseled_dry_sandy_stone"
+		},
+		"cavesplus_fire_trap": {
+			"textures": "textures/blocks/fire_trap"
+		},
+		"cavesplus_dry_sandy_stone_slab": {
+			"textures": "textures/blocks/dry_sandy_stone"
+		},
+		"cavesplus_dry_sandy_stone_bricks": {
+			"textures": "textures/blocks/dry_sandy_stone_bricks"
+		},
+		"cavesplus_dry_sandy_stone_brick_slab": {
+			"textures": "textures/blocks/dry_sandy_stone_bricks"
+		},
+		"cavesplus_cracked_dry_sandy_stone_bricks": {
+			"textures": "textures/blocks/cracked_dry_sandy_stone_bricks"
+		},
+		"cavesplus_pot": {
+			"textures": "textures/blocks/pot"
+		}
+	}
+}

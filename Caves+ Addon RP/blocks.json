@@ -1,0 +1,145 @@
+{
+	"format_version": [
+		1,
+		1,
+		0
+	],
+	"cavesplus:frosted_stone": {
+		"sound": "stone",
+		"textures": "cavesplus_frosted_stone"
+	},
+	"cavesplus:cobbled_frosted_stone": {
+		"sound": "stone",
+		"textures": "cavesplus_cobbled_frosted_stone"
+	},
+	"cavesplus:frosted_stone_bricks": {
+		"sound": "stone",
+		"textures": "cavesplus_frosted_stone_bricks"
+	},
+	"cavesplus:frosted_stone_slab": {
+		"sound": "stone"
+	},
+	"cavesplus:chiseled_frosted_stone": {
+		"sound": "stone",
+		"textures": "cavesplus_chiseled_frosted_stone"
+	},
+	"cavesplus:frosted_stone_brick_slab": {
+		"sound": "stone"
+	},
+	"cavesplus:cobbled_frosted_stone_slab": {
+		"sound": "stone"
+	},
+	"cavesplus:icicle": {
+		"sound": "glass"
+	},
+	"cavesplus:icicle_up": {
+		"sound": "glass"
+	},
+	"cavesplus:frosted_stone_emerald_ore": {
+		"sound": "stone",
+		"textures": "cavesplus_frosted_stone_emerald_ore"
+	},
+	"cavesplus:cave_ice": {
+		"sound": "stone",
+		"textures": {
+			"down": "cavesplus_frosted_stone",
+			"up": "cavesplus_cave_ice",
+			"side": "cavesplus_cave_ice_side"
+		}
+	},
+	"cavesplus:frosted_stone_permafrost_ore": {
+		"sound": "stone",
+		"textures": "cavesplus_frosted_stone_permafrost_ore"
+	},
+	"cavesplus:deepslate_permafrost_ore": {
+		"sound": "deepslate",
+		"textures": "cavesplus_deepslate_permafrost_ore"
+	},
+	"cavesplus:permafrost_ore": {
+		"sound": "stone",
+		"textures": "cavesplus_permafrost_ore"
+	},
+	"cavesplus:permafrost_block": {
+		"sound": "metal",
+		"textures": "cavesplus_permafrost_block"
+	},
+	"cavesplus:icy_frosted_stone_bricks": {
+		"sound": "stone",
+		"textures": "cavesplus_icy_frosted_stone_bricks"
+	},
+	"cavesplus:freeze_block": {
+		"sound": "stone",
+		"textures": "cavesplus_freeze_block"
+	},
+	"cavesplus:dry_sandy_stone": {
+		"sound": "stone",
+		"textures": "cavesplus_dry_sandy_stone"
+	},
+	"cavesplus:dry_sandy_stone_gold_ore": {
+		"sound": "stone",
+		"textures": "cavesplus_dry_sandy_stone_gold_ore"
+	},
+	"cavesplus:dry_sandy_stone_coal_ore": {
+		"sound": "stone",
+		"textures": "cavesplus_dry_sandy_stone_coal_ore"
+	},
+	"cavesplus:dry_sandy_stone_iron_ore": {
+		"sound": "stone",
+		"textures": "cavesplus_dry_sandy_stone_iron_ore"
+	},
+	"cavesplus:dry_sandy_stone_copper_ore": {
+		"sound": "stone",
+		"textures": "cavesplus_dry_sandy_stone_copper_ore"
+	},
+	"cavesplus:dry_sandy_stone_lapis_ore": {
+		"sound": "stone",
+		"textures": "cavesplus_dry_sandy_stone_lapis_ore"
+	},
+	"cavesplus:dry_sandy_stone_redstone_ore": {
+		"sound": "stone",
+		"textures": "cavesplus_dry_sandy_stone_redstone_ore"
+	},
+	"cavesplus:dry_sandy_stone_diamond_ore": {
+		"sound": "stone",
+		"textures": "cavesplus_dry_sandy_stone_diamond_ore"
+	},
+	"cavesplus:red_sand_layer": {
+		"sound": "sand"
+	},
+	"cavesplus:fire_crystal_cluster": {
+		"sound": "amethyst_cluster"
+	},
+	"cavesplus:black_sand": {
+		"sound": "sand",
+		"textures": "cavesplus_black_sand"
+	},
+	"cavesplus:fire_crystal_block": {
+		"sound": "amethyst_block",
+		"textures": "cavesplus_fire_crystal_block"
+	},
+	"cavesplus:chiseled_dry_sandy_stone": {
+		"sound": "stone",
+		"textures": "cavesplus_chiseled_dry_sandy_stone"
+	},
+	"cavesplus:fire_trap": {
+		"sound": "stone",
+		"textures": "cavesplus_fire_trap"
+	},
+	"cavesplus:dry_sandy_stone_slab": {
+		"sound": "stone"
+	},
+	"cavesplus:dry_sandy_stone_bricks": {
+		"sound": "stone",
+		"textures": "cavesplus_dry_sandy_stone_bricks"
+	},
+	"cavesplus:dry_sandy_stone_brick_slab": {
+		"sound": "stone"
+	},
+	"cavesplus:cracked_dry_sandy_stone_bricks": {
+		"sound": "stone",
+		"textures": "cavesplus_cracked_dry_sandy_stone_bricks"
+	},
+	"cavesplus:pot": {
+		"sound": "glass"
+	}
+}
