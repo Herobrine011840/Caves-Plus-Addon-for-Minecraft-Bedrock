@@ -1,3 +1,5 @@
+THIS PAGE IS NO LONGER BEING UPDATED. GO TO https://www.curseforge.com/members/Herobrine011840/projects
+
 The Official Caves+ Addon by Herobrine011840.
 
 ![Minecraft 7_16_2023 5_51_16 PM](https://github.com/Herobrine011840/Caves-Plus-Addon-for-Minecraft-Bedrock/assets/139717119/468acc8e-2e3f-4232-a245-4cbfa26e83cb)
